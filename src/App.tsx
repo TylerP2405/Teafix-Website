@@ -1,13 +1,9 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>
-      <h1>
-        Hello World! This is Teafix website. This is a simple React app
-        created using Vite and TypeScript. This is a simple React app
-      </h1>
-    </div>
+    <Navbar/>
   )
 }
 export default App;
