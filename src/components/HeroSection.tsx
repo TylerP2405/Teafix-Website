@@ -1,5 +1,4 @@
-import CoffeeImage from '../assets/CoffeeImageForHomeScreen.png';
-import Coffee from '../assets/Coffee.png';
+import CoffeeImage from '../assets/CoffeeImageForHomeScreen (1).webp';
 
 
 const HeroSection = () => { 
@@ -16,7 +15,7 @@ const HeroSection = () => {
 
       <div className="flex-1">
         <img
-          src={Coffee}
+          src={CoffeeImage}
           alt="Teafix Coffee"
           className="w-full h-auto object-contain"
         />
