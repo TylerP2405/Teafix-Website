@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <nav className="flex justify-between items-center px-8 py-4 bg-black text-white">
+        <nav className="flex justify-between items-center px-8 py-4 bg-[#0E0C0B] text-white">
             <div className="text-3xl font-semibold cursor-pointer hover:text-gray-500 transition">Teafix</div>
 
             <div className="flex items-center gap-12 pr-20 pl-30">
