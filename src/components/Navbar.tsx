@@ -1,9 +1,9 @@
 const Navbar = () => {
     return (
-        <nav className="flex justify-between items-center px-8 py-4 bg-[#0E0C0B] text-white">
+        <nav className="flex justify-between items-center px-8 py-4 bg-[#0E0C0B] text-white overflow-x-hidden">
             <div className="text-3xl font-semibold cursor-pointer hover:text-gray-500 transition">Teafix</div>
 
-            <div className="flex items-center gap-12 pr-20 pl-30">
+            <div className="flex items-center gap-6 lg:gap-12 px-4 mx-4">
                 <a href="#">Home</a>
                 <a href="#">Products</a>
                 <a href="#">About</a>
@@ -11,7 +11,7 @@ const Navbar = () => {
                 <a href="#">Contact</a>
             </div>
 
-            <div className="flex items-center flex-1 gap-8 px-6">
+            <div className="flex items-center gap-8 px-6">
                 <input 
                     type="text" 
                     placeholder="Search..."
