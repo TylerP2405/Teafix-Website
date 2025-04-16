@@ -12,12 +12,14 @@ const ProductSection = () => {
     ]
 
     return (
-        <section className="px-6 bg-[#0E0C0B] text-white">
-          <h2 className="text-3xl font-bold mb-8">Best Selling Products</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            {products.map((item) => (
-              <ProductCard key={item.id} product={item} />
-            ))}
+        <section className="bg-[#0E0C0B] text-white">
+          <div className="flex flex-1 flex-col py-10 px-10">
+            <h2 className="text-4xl font-bold mb-8">Best Selling Products</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-center">
+              {products.map((item) => (
+                <ProductCard key={item.id} product={item} />
+              ))}
+            </div>
           </div>
         </section>
       );

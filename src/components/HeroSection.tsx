@@ -3,7 +3,7 @@ import CoffeeImage from '../assets/CoffeeImageForHomeScreen (1).webp';
 
 const HeroSection = () => { 
   return (
-    <section className="w-full flex flex-col md:flex-row items-center justify-between px-10 py-20 bg-[#0E0C0B] gap-8">
+    <section className="w-full flex flex-col md:flex-row items-center justify-between px-10 pt-20 bg-[#0E0C0B] gap-8">
     
       <div className="flex-1 max-w-xl text-center md:text-left md:mb-100">
         <h1 className="text-3xl md:text-5xl font-extrabold mb-4 text-white">Vietnamese Best Coffee</h1>
