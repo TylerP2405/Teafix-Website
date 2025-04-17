@@ -14,13 +14,17 @@ interface ProductCardProps {
             <div className="flex-grow" />
 
             {addToCart && (
-              <div className="flex flex-row justify-between w-full">
-                <button className="w-40 items-end text-center mt-4 bg-[#0E0C0B] p-4 border border-gray-500 hover:bg-gray-800 rounded-lg transition">
-                  Add to Cart
-                </button>
-                <button className="w-40 items-end text-center mt-4 bg-[#0E0C0B] p-4 border border-gray-500 hover:bg-gray-800 rounded-lg transition">
-                  Wishlist
-                </button>
+              <div className="flex flex-col justify-between w-full md:gap-5 md:flex-row">
+                <div className="flex-1 ">
+                  <button className="w-full text-center mt-4 bg-[#0E0C0B] p-4 border border-gray-500 hover:bg-gray-800 rounded-lg transition">
+                    Add
+                  </button>
+                </div>
+                <div className="flex-1">
+                  <button className="w-full items-end text-center mt-4 bg-[#0E0C0B] p-4 border border-gray-500 hover:bg-gray-800 rounded-lg transition">
+                    Wishlist
+                  </button>
+                </div>
               </div>
             )}
         </div>
