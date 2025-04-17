@@ -1,16 +1,19 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import ProductSection from "./components/ProductSection";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
+import {Routes, Route} from "react-router-dom";
+import ProductPage from "./pages/ProductPage";
 
 const App = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="flex-1">
-        <HomePage />
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/products" element={<ProductPage/>}/>
+        </Routes>
       </main>
       <Footer />
     </div>
