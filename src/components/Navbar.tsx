@@ -19,9 +19,9 @@ const Navbar = () => {
                     className="w-full bg-gray-800 px-4 py-2 rounded-md focus:outline-none"/>       
             </div>
 
-            <div className="flex gap-4 pl-30">
-                <button className="px-4 py-2 rounded-md border border-gray-500 hover:bg-gray-800">Sign Up</button>
-                <button className="px-4 py-2 rounded-md border border-gray-500 hover:bg-gray-800">Login</button>
+            <div className="flex gap-4 pl-30 flex-col md:flex-row">
+                <Link to="sign-up" className="px-4 py-2 rounded-md border border-gray-500 hover:bg-gray-800">Sign Up</Link>
+                <Link to="login" className="px-4 py-2 rounded-md border border-gray-500 hover:bg-gray-800">Login</Link>
             </div>
         </nav>
     )
