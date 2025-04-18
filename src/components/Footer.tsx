@@ -15,7 +15,7 @@ const Footer = () => {
                     <p>theteafix@gmail.com</p>
                 </div>
 
-                <div className="flex flex-1">
+                <div className="flex flex-1 justify-center">
                     <h1 className="text-3xl">Teafix and Beans Logo </h1>
                 </div>
 

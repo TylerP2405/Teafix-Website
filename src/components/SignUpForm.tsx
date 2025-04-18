@@ -24,18 +24,14 @@ const SignUpForm = () => {
                 <input  type="password" 
                         placeholder="Password" 
                         className="p-3 border rounded-md border-gray-500 bg-neutral-800 " />
-                <button className="w-1/3 mx-auto bg-gray-100 text-black rounded-md font-medium p-2 hover:bg-gray-400 transition">
+                <button className="md:w-1/3 mx-auto bg-gray-100 text-black rounded-md font-medium p-2 hover:bg-gray-400 transition">
                     Sign Up
                 </button>
             </form>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col">
                 <p className="font-thin">
                     Already have an account ? {" "}
                     <Link to="login" className="font-bold">Login</Link>
-                </p>
-                <p className="font-thin">
-                    Forgot you password ? {" "}
-                    <Link to="" className="font-bold">Reset Password</Link>
                 </p>
             </div>
         </div>
